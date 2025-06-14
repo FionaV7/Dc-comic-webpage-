@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DC Comics</title>
+  <style>
+    body {
+      font-family: "Lucida Console", monospace;
+      margin: 0;
+      padding: 0;
+    }
+
+    header img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .top, footer {
+      text-align: center;
+      background-color: black;
+      color: white;
+      padding: 2%;
+    }
+
+    .comics {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .bookmarks {
+      background-color: cyan;
+      text-decoration: none;
+      border-radius: 10px;
+      border: none;
+      color: black;
+      padding: 12px 18px;
+      margin: 5px;
+      display: inline-block;
+      font-size: 20px;
+      transition: background-color 0.3s;
+    }
+
+    .bookmarks:hover {
+      background-color: lightblue;
+    }
+
+    .row {
+      width: 100%;
+      text-align: center;
+      margin: 40px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .column {
+      box-sizing: border-box;
+      padding: 10px;
+    }
+
+    .content {
+      width: 60%;
+      text-align: left;
+    }
+
+    .photo {
+      width: 300px;
+      height: auto;
+    }
+
+    .photo img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    h1, h2, p {
+      margin: 10px 0;
+    }
+
+    footer {
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://wallpaperaccess.com/full/224562.jpg" alt="DC Comics Banner">
+  </header>
+
+  <section>
+    <div class="top">
+      <h1>Must Read Collections</h1>
+      <p>Check out what’s new on DC UNIVERSE INFINITE and explore our catalog of over 25,000 comics and graphic novels from DC, Vertigo, DC Black Label and Milestone Media!</p>
+    </div>
+
+    <div class="comics">
+      <a href="#Comic1" class="bookmarks">SUPERMAN VS. SHAZAM</a>
+      <a href="#Comic2" class="bookmarks">THE JOKER</a>
+      <a href="#Comic3" class="bookmarks">WONDER WOMAN</a>
+      <a href="#Comic4" class="bookmarks">FALLEN ANGEL</a>
+      <a href="#Comic5" class="bookmarks">RED HOOD: OUTLAW</a>
+    </div>
+
+    <!-- Comic 1 -->
+    <div class="row" id="Comic1">
+      <div class="content column">
+        <h2>SUPERMAN VS. SHAZAM</h2>
+        <p>Two of DC’s greatest heroes collide in this era-spanning, action-packed collection! The Man of Steel and the World’s Mightiest Mortal are two of the strongest men imaginable, but what happens when they find themselves facing each other?</p>
+        <p>Collects Superman #216, The Power of Shazam! #46, Kingdom Come #4, DC Comics Presents #33, #34, and #49, DC Comics Presents Annual #3, and All-New Collectors’ Edition #C-58.</p>
+      </div>
+      <div class="photo column">
+        <img src="https://i.pinimg.com/564x/9c/4c/40/9c4c4070833b41d3dad766fad8cd1ccf.jpg" alt="SUPERMAN VS. SHAZAM">
+      </div>
+    </div>
+
+    <!-- Comic 2 -->
+    <div class="row" id="Comic2">
+      <div class="photo column">
+        <img src="https://thefunambulistdotnet.files.wordpress.com/2010/12/dark-knight-joker_l.jpg" alt="The Joker">
+      </div>
+      <div class="content column">
+        <h2>THE JOKER</h2>
+        <p>Following the events of Infinite Frontier #1, the Joker is the most wanted man in the world! But the Clown Prince of Crime is several steps ahead of law enforcement—and he’s on the run overseas.</p>
+        <p>And in the backup story, DC’s most controversial new villain navigates Blackgate Penitentiary, while Harper Row becomes Bluebird to stop her brother from falling under Punchline’s influence.</p>
+      </div>
+    </div>
+
+    <!-- Comic 3 -->
+    <div class="row" id="Comic3">
+      <div class="content column">
+        <h2>WONDER WOMAN</h2>
+        <p>From the team of Becky Cloonan and Michael W. Conrad, explore Wonder Woman’s epic journey and her adolescent struggles in Themyscira. With backup stories revealing Diana's hidden past, this collection is both heartfelt and heroic.</p>
+      </div>
+      <div class="photo column">
+        <img src="https://m.media-amazon.com/images/I/81Dhw4hKLkL._AC_SY679_.jpg" alt="Wonder Woman">
+      </div>
+    </div>
+
+    <!-- Comic 4 -->
+    <div class="row" id="Comic4">
+      <div class="photo column">
+        <img src="https://c4.wallpaperflare.com/wallpaper/99/383/825/fallen-angel-fallen-fantasy-wings-wallpaper-thumb.jpg" alt="Fallen Angel">
+      </div>
+      <div class="content column">
+        <h2>FALLEN ANGEL</h2>
+        <p>It’s a typical evening at Dolf's bar in Bete Noire. All characters pass through, entangled in personal struggles—unaware they're connected. Only the Fallen Angel can piece the puzzle together in one grand revelation.</p>
+      </div>
+    </div>
+
+    <!-- Comic 5 -->
+    <div class="row" id="Comic5">
+      <div class="content column">
+        <h2>RED HOOD: OUTLAW</h2>
+        <p>The end of an era! Red Hood and the Outlaws face supernatural threats and moral challenges as they battle the Untitled in Qurac. It’s a hellish war—literally—and the team's greatest test yet.</p>
+      </div>
+      <div class="photo column">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/917HeDKPXoL.jpg" alt="Red Hood: Outlaw">
+      </div>
+    </div>
+
+    <footer>
+      <h5>Created by Fiona.V from &copy; Camp K12</h5>
+    </footer>
+  </section>
+</body>
+</html>
